@@ -1,0 +1,95 @@
+---------------------------------------------------------------------------------------------------------------------------
+                                                  Recurrent Neural Network
+----------------------------------------------------------------------------------------------------------------------------------
+
+
+Installation Requirements: 
+----------------------------------------------------------------------------------------------------------------------------------
+
+(1) Anaconda (Recommended)  - Anaconda is joint enviornment and is the fastest and easiest way to do Python and R data 
+			      science and machine learning. Anaconda is a free and open source environment. 
+			      Download here (https://www.anaconda.com/download/). The python version used was 3.7.
+
+(2) Keras package(v 2.1.6)  - The version 2.1.6 of keras was used during development and recommend to use the same. 
+			      Keras is a high-level neural networks API, written in Python and capable of running 
+			      on top of TensorFlow, CNTK, or Theano. For the proper working of RNN we recommend to use 
+			      Kerasv2.1.6
+			      
+			      Installation -- Run the following command in Anaconda Prompt        
+					--> pip install keras==2.1.6
+
+(3) Tensorflow  	    - The version used during development was 1.9. TensorFlow™ is an open source software library 
+			      for machine learning and deep learning and the flexible numerical computation core is used 
+                              across many other scientific domains. 
+			      
+			      Installation -- Run the following command in Anaconda Prompt
+				      --> conda create -n tensorflow pip python=3.7 (Since python 3.7 was used during development) 
+				      --> activate tensorflow
+                                                                                           
+				      --> pip install  tensorflow 
+                                                                                           
+
+(4) Operating System - The library was developed on Windows 10. Any other operating system that supports the installation
+                       of the above softwares may be used. 
+
+----------------------------------------------------------------------------------------------------------------------------------     
+
+Installation procedure:
+
+(1) Install the latest versions of Anaconda on the system. Please download the programs directly from the official
+    websites. (The links are given above). 
+
+(2) Once you've installed the above programs, open Anaconda Navigator and open Spyder. 
+
+(3) Now we have to install some packages. Before doing this, please make sure that you're conected to the internet.
+    Follow these steps. 
+                1. Open Anaconda Prompt. For proper working of the library we recommend you to update all the packages.
+		   For updating type these in Anaconda Promot. 
+			--> conda update conda 
+			--> conda update --all
+				
+		2. Install Keras(v2.1.6) and Tensorflow. 
+
+---------------------------------------------------------------------------------------------------------------------------------
+ FOR PYTHON.
+
+Installation requirements:
+--------------------------------------------------------------------------------------------------------------------------------
+ (1) Python 3.7       	     - Python is an interpreted high-level programming language for general-purpose programming. Python used during
+			       development was v3.7
+			       Download here (https://www.python.org/downloads/)
+   
+ (2) Keras package(v 2.1.6)  - The version 2.1.6 of keras was used during development and recommend to use the same. 
+			       Keras is a high-level neural networks API, written in Python and capable of running 
+			       on top of TensorFlow, CNTK, or Theano. 
+			      
+			       Installation -- Run the following command in Command Prompt        
+					--> pip install keras==2.1.6  		or
+					--> python3 -m pip install keras==2.1.6 	 or
+					--> py -m pip install keras==2.1.6
+
+ (3) Tensorflow 	    -  The version used during development was 1.9. TensorFlow™ is an open source software library 
+			       for machine learning and deep learning and the flexible numerical computation core is used 
+                               across many other scientific domains. 
+			      
+			       Installation -- Run the following command in Command Prompt
+				      --> pip3 install tensorflow	or
+				      --> python3 -m pip install tensorflow  	or 
+				      --> py -m pip install tensorflow
+
+ (4) Pandas 		    -  Pandas is an open source, BSD-licensed library providing high-performance, easy-to-use data 
+			       structures and data analysis tools for the Python programming language.
+					
+				Installation -- Run the following command in Command Prompt
+ 				      --> pip install pandas   		 or
+				      --> python3 -m pip install pandas         or
+				      --> py -m pip install pandas
+
+
+ (5) Install the rest of the packages. 
+      (i)Numpy
+      (ii)Time
+      (iii) Metaplotlib  
+      (iv)sklearn
+ (4) Operating System - The library was developed on Windows 10. Any other operating system that supports the installation
+                       of the above softwares may be used. 
